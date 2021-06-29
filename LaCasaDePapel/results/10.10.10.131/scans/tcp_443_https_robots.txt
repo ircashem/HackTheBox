@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+X-Powered-By: Express
+Location: http://lacasadepel.htb
+Vary: Accept
+Content-Type: text/plain; charset=utf-8
+Content-Length: 44
+Date: Wed, 09 Jun 2021 15:17:38 GMT
+Connection: keep-alive
+
+Found. Redirecting to http://lacasadepel.htb

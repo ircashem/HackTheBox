@@ -1,0 +1,26 @@
+# Nmap 7.91 scan initiated Mon Jun 21 16:59:42 2021 as: nmap -sVC -oN basic-tcp.nmap 10.10.10.115
+Nmap scan report for 10.10.10.115
+Host is up (0.66s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 2a:8d:e2:92:8b:14:b6:3f:e4:2f:3a:47:43:23:8b:2b (RSA)
+|   256 e7:5a:3a:97:8e:8e:72:87:69:a3:0d:d1:00:bc:1f:09 (ECDSA)
+|_  256 01:d2:59:b2:66:0a:97:49:20:5f:1c:84:eb:81:ed:95 (ED25519)
+80/tcp   open  http    nginx 1.12.2
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-server-header: nginx/1.12.2
+|_http-title: Site doesn't have a title (text/html).
+9200/tcp open  http    nginx 1.12.2
+|_http-favicon: Unknown favicon MD5: 6177BFB75B498E0BB356223ED76FFE43
+| http-methods: 
+|   Supported Methods: HEAD DELETE GET OPTIONS
+|_  Potentially risky methods: DELETE
+|_http-server-header: nginx/1.12.2
+|_http-title: Site doesn't have a title (application/json; charset=UTF-8).
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 21 17:01:16 2021 -- 1 IP address (1 host up) scanned in 93.50 seconds

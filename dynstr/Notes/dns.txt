@@ -1,0 +1,7 @@
+dnsalias.htb
+dynamicdns.htb
+no-ip.htb
+
+dyna.htb
+dns1.dyna.htb
+hostmaster.dyna.htb

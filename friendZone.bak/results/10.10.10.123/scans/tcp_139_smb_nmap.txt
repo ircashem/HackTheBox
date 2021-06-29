@@ -1,0 +1,157 @@
+# Nmap 7.91 scan initiated Wed Jun  9 00:55:45 2021 as: nmap -vv --reason -Pn -sV -p 139 "--script=banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" --script-args=unsafe=1 -oN /home/ircashem/HackTheBox/friendZone/results/10.10.10.123/scans/tcp_139_smb_nmap.txt -oX /home/ircashem/HackTheBox/friendZone/results/10.10.10.123/scans/xml/tcp_139_smb_nmap.xml 10.10.10.123
+Nmap scan report for 10.10.10.123
+Host is up, received user-set (0.24s latency).
+Scanned at 2021-06-09 00:55:52 IST for 350s
+
+PORT    STATE SERVICE     REASON  VERSION
+139/tcp open  netbios-ssn syn-ack Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)
+Service Info: Host: FRIENDZONE
+
+Host script results:
+| nbstat: NetBIOS name: FRIENDZONE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   FRIENDZONE<00>       Flags: <unique><active>
+|   FRIENDZONE<03>       Flags: <unique><active>
+|   FRIENDZONE<20>       Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+| Statistics:
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| smb-enum-domains: 
+|   FRIENDZONE
+|     Groups: n/a
+|     Users: n/a
+|     Creation time: unknown
+|     Passwords: min length: 5; min age: n/a days; max age: n/a days; history: n/a passwords
+|     Account lockout disabled
+|   Builtin
+|     Groups: n/a
+|     Users: n/a
+|     Creation time: unknown
+|     Passwords: min length: 5; min age: n/a days; max age: n/a days; history: n/a passwords
+|_    Account lockout disabled
+| smb-enum-sessions: 
+|_  <nobody>
+| smb-enum-shares: 
+|   account_used: guest
+|   \\10.10.10.123\Development: 
+|     Type: STYPE_DISKTREE
+|     Comment: FriendZone Samba Server Files
+|     Users: 1
+|     Max Users: <unlimited>
+|     Path: C:\etc\Development
+|     Anonymous access: READ/WRITE
+|     Current user access: READ/WRITE
+|   \\10.10.10.123\Files: 
+|     Type: STYPE_DISKTREE
+|     Comment: FriendZone Samba Server Files /etc/Files
+|     Users: 0
+|     Max Users: <unlimited>
+|     Path: C:\etc\hole
+|     Anonymous access: <none>
+|     Current user access: <none>
+|   \\10.10.10.123\IPC$: 
+|     Type: STYPE_IPC_HIDDEN
+|     Comment: IPC Service (FriendZone server (Samba, Ubuntu))
+|     Users: 4
+|     Max Users: <unlimited>
+|     Path: C:\tmp
+|     Anonymous access: READ/WRITE
+|     Current user access: READ/WRITE
+|   \\10.10.10.123\general: 
+|     Type: STYPE_DISKTREE
+|     Comment: FriendZone Samba Server Files
+|     Users: 1
+|     Max Users: <unlimited>
+|     Path: C:\etc\general
+|     Anonymous access: READ/WRITE
+|     Current user access: READ/WRITE
+|   \\10.10.10.123\print$: 
+|     Type: STYPE_DISKTREE
+|     Comment: Printer Drivers
+|     Users: 0
+|     Max Users: <unlimited>
+|     Path: C:\var\lib\samba\printers
+|     Anonymous access: <none>
+|_    Current user access: <none>
+| smb-ls: Volume \\10.10.10.123\Development
+| SIZE   TIME                 FILENAME
+| <DIR>  2021-06-08T19:28:32  .
+| <DIR>  2019-01-23T21:50:59  ..
+| 
+| 
+| Volume \\10.10.10.123\general
+| SIZE   TIME                 FILENAME
+| <DIR>  2019-01-16T20:10:51  .
+| <DIR>  2019-01-23T21:50:59  ..
+| 57     2018-10-09T23:52:42  creds.txt
+|_
+| smb-mbenum: 
+|   DFS Root
+|     FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+|   Master Browser
+|     FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+|   Print server
+|     FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+|   Server
+|     FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+|   Server service
+|     FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+|   Unix server
+|     FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+|   Windows NT/2000/XP/2003 server
+|     FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+|   Workstation
+|_    FRIENDZONE  0.0  FriendZone server (Samba, Ubuntu)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.7.6-Ubuntu)
+|   Computer name: friendzone
+|   NetBIOS computer name: FRIENDZONE\x00
+|   Domain name: \x00
+|   FQDN: friendzone
+|_  System time: 2021-06-08T22:26:07+03:00
+|_smb-print-text: false
+| smb-protocols: 
+|   dialects: 
+|     NT LM 0.12 (SMBv1) [dangerous, but default]
+|     2.02
+|     2.10
+|     3.00
+|     3.02
+|_    3.11
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb-system-info: ERROR: Script execution failed (use -d to debug)
+|_smb-vuln-ms10-061: false
+| smb2-capabilities: 
+|   2.02: 
+|     Distributed File System
+|   2.10: 
+|     Distributed File System
+|     Leasing
+|   3.00: 
+|     Distributed File System
+|     Leasing
+|   3.02: 
+|     Distributed File System
+|     Leasing
+|   3.11: 
+|     Distributed File System
+|_    Leasing
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-08T19:26:07
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun  9 01:01:42 2021 -- 1 IP address (1 host up) scanned in 357.67 seconds

@@ -1,0 +1,25 @@
+# Nmap 7.91 scan initiated Mon May 31 19:54:17 2021 as: nmap -p- -oN all-ports-tcp.nmap 10.10.10.180
+Nmap scan report for 10.10.10.180
+Host is up (0.094s latency).
+Scanned at 2021-05-31 19:54:17 IST for 503s
+Not shown: 65519 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+111/tcp   open  rpcbind
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2049/tcp  open  nfs
+5985/tcp  open  wsman
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49678/tcp open  unknown
+49679/tcp open  unknown
+49680/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon May 31 20:02:40 2021 -- 1 IP address (1 host up) scanned in 503.64 seconds

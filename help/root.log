@@ -1,0 +1,4 @@
+/index.html           (Status: 200) [Size: 11321]
+/javascript           (Status: 301) [Size: 317] [--> http://10.10.10.121/javascript/]
+/support              (Status: 301) [Size: 314] [--> http://10.10.10.121/support/]
+/.                    (Status: 200) [Size: 11321]

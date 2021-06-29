@@ -1,0 +1,14 @@
+HTTP/1.1 404 Not Found
+Server: nginx/1.14.2
+Date: Sun, 06 Jun 2021 22:07:12 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.14.2</center>
+</body>
+</html>

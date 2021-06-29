@@ -1,0 +1,40 @@
+# Nmap 7.91 scan initiated Wed Jun 23 08:55:14 2021 as: nmap -p- -oN nmap/full-tcp 10.10.10.69
+Warning: 10.10.10.69 giving up on port because retransmission cap hit (10).
+Nmap scan report for fluxcapacitor.htb (10.10.10.69)
+Host is up (0.098s latency).
+Not shown: 65504 closed ports
+PORT      STATE    SERVICE
+80/tcp    open     http
+4679/tcp  filtered mgesupervision
+5355/tcp  filtered llmnr
+9393/tcp  filtered unknown
+11713/tcp filtered unknown
+13992/tcp filtered unknown
+14714/tcp filtered unknown
+20580/tcp filtered unknown
+24140/tcp filtered unknown
+24459/tcp filtered unknown
+29385/tcp filtered unknown
+29689/tcp filtered unknown
+34947/tcp filtered unknown
+37900/tcp filtered unknown
+38772/tcp filtered unknown
+40056/tcp filtered unknown
+46695/tcp filtered unknown
+50146/tcp filtered unknown
+50921/tcp filtered unknown
+51322/tcp filtered unknown
+53967/tcp filtered unknown
+54427/tcp filtered unknown
+57692/tcp filtered unknown
+58355/tcp filtered unknown
+59051/tcp filtered unknown
+60565/tcp filtered unknown
+60688/tcp filtered unknown
+62363/tcp filtered unknown
+63542/tcp filtered unknown
+64934/tcp filtered unknown
+65231/tcp filtered unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jun 23 10:18:25 2021 -- 1 IP address (1 host up) scanned in 4990.96 seconds

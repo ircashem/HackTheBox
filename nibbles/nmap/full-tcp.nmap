@@ -1,0 +1,62 @@
+# Nmap 7.91 scan initiated Sat Jun  5 17:47:01 2021 as: nmap -sCV -p- -oN nmap/full-tcp.nmap 10.10.10.75
+Nmap scan report for 10.10.10.75
+Host is up (0.096s latency).
+Scanned at 2021-06-05 17:47:02 IST for 1691s
+Not shown: 65495 closed ports
+PORT      STATE    SERVICE      VERSION
+22/tcp    open     ssh          OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c4:f8:ad:e8:f8:04:77:de:cf:15:0d:63:0a:18:7e:49 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD8ArTOHWzqhwcyAZWc2CmxfLmVVTwfLZf0zhCBREGCpS2WC3NhAKQ2zefCHCU8XTC8hY9ta5ocU+p7S52OGHlaG7HuA5Xlnihl1INNsMX7gpNcfQEYnyby+hjHWPLo4++fAyO/lB8NammyA13MzvJy8pxvB9gmCJhVPaFzG5yX6Ly8OIsvVDk+qVa5eLCIua1E7WGACUlmkEGljDvzOaBdogMQZ8TGBTqNZbShnFH1WsUxBtJNRtYfeeGjztKTQqqj4WD5atU8dqV/iwmTylpE7wdHZ+38ckuYL9dmUPLh4Li2ZgdY6XniVOBGthY5a2uJ2OFp2xe1WS9KvbYjJ/tH
+|   256 22:8f:b1:97:bf:0f:17:08:fc:7e:2c:8f:e9:77:3a:48 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPiFJd2F35NPKIQxKMHrgPzVzoNHOJtTtM+zlwVfxzvcXPFFuQrOL7X6Mi9YQF9QRVJpwtmV9KAtWltmk3qm4oc=
+|   256 e6:ac:27:a3:b5:a9:f1:12:3c:34:a5:5d:5b:eb:3d:e9 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC/RjKhT/2YPlCgFQLx+gOXhC6W3A3raTzjlXQMT8Msk
+80/tcp    open     http         Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+1263/tcp  filtered dka
+1433/tcp  filtered ms-sql-s
+1566/tcp  filtered corelvideo
+2178/tcp  filtered bitspeer
+2856/tcp  filtered cesdinv
+3198/tcp  filtered embrace-dp-c
+5384/tcp  filtered unknown
+9705/tcp  filtered unknown
+12172/tcp filtered hivep
+12610/tcp filtered unknown
+13387/tcp filtered unknown
+15042/tcp filtered unknown
+19768/tcp filtered unknown
+21003/tcp filtered unknown
+21020/tcp filtered unknown
+21786/tcp filtered unknown
+21821/tcp filtered unknown
+23097/tcp filtered unknown
+25752/tcp filtered unknown
+36121/tcp filtered unknown
+38792/tcp filtered unknown
+39537/tcp filtered unknown
+40751/tcp filtered unknown
+41388/tcp filtered unknown
+42158/tcp filtered unknown
+43966/tcp filtered unknown
+44527/tcp filtered unknown
+50668/tcp filtered unknown
+52610/tcp filtered unknown
+53022/tcp filtered unknown
+54369/tcp filtered unknown
+55617/tcp filtered unknown
+56025/tcp filtered unknown
+56730/tcp filtered unknown
+60019/tcp filtered unknown
+62341/tcp filtered unknown
+63455/tcp filtered unknown
+65143/tcp filtered unknown
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jun  5 18:15:13 2021 -- 1 IP address (1 host up) scanned in 1691.88 seconds

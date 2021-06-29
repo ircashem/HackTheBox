@@ -1,0 +1,26 @@
+nmap -vv --reason -Pn -sV -sC --version-all -oN "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/_quick_tcp_nmap.txt" -oX "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/xml/_quick_tcp_nmap.xml" delivery.htb
+
+nmap -vv --reason -Pn -sU -A --top-ports=20 --version-all -oN "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/_top_20_udp_nmap.txt" -oX "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/xml/_top_20_udp_nmap.xml" delivery.htb
+
+nmap -vv --reason -Pn -A --osscan-guess --version-all -p- -oN "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/_full_tcp_nmap.txt" -oX "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/xml/_full_tcp_nmap.xml" delivery.htb
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour delivery.htb:22 2>&1 | tee "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_22_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 22 --script="banner,ssh2-enum-algos,ssh-hostkey,ssh-auth-methods" -oN "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_22_ssh_nmap.txt" -oX "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/xml/tcp_22_ssh_nmap.xml" delivery.htb
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour delivery.htb:80 2>&1 | tee "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 80 --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_http_nmap.txt" -oX "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/xml/tcp_80_http_nmap.xml" delivery.htb
+
+curl -sSik http://delivery.htb:80/ -m 10 2>&1 | tee "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_http_index.html"
+
+curl -sSik http://delivery.htb:80/robots.txt -m 10 2>&1 | tee "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_http_robots.txt"
+
+if hash wkhtmltoimage 2> /dev/null; then wkhtmltoimage --format png http://delivery.htb:80/ /home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_http_screenshot.png; fi
+
+whatweb --color=never --no-errors -a 3 -v http://delivery.htb:80 2>&1 | tee "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_http_whatweb.txt"
+
+ffuf -u http://delivery.htb:80/FUZZ -t 10 -w /usr/share/seclists/Discovery/Web-Content/common.txt -e ".txt,.html,.php,.asp,.aspx,.jsp" -v | tee /home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_http_ffuf.txt
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour delivery.htb:8065 2>&1 | tee "/home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_8065_sslscan.txt"; fi
+

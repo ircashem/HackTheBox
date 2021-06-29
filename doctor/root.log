@@ -1,0 +1,8 @@
+/login                (Status: 200) [Size: 4204]
+/register             (Status: 200) [Size: 4493]
+/logout               (Status: 302) [Size: 217] [--> http://doctors.htb/home]
+/account              (Status: 302) [Size: 251] [--> http://doctors.htb/login?next=%2Faccount]
+/home                 (Status: 302) [Size: 245] [--> http://doctors.htb/login?next=%2Fhome]
+/archive              (Status: 200) [Size: 101]
+/.                    (Status: 302) [Size: 237] [--> http://doctors.htb/login?next=%2F]
+/reset_password       (Status: 200) [Size: 3493]

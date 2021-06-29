@@ -1,0 +1,3 @@
+/index.html           (Status: 200) [Size: 72]
+/.                    (Status: 200) [Size: 72]
+/manual               (Status: 301) [Size: 313] [--> http://10.10.10.117/manual/]

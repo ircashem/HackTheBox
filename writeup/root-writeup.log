@@ -1,0 +1,5 @@
+/modules              (Status: 301) [Size: 322] [--> http://10.10.10.138/writeup/modules/]
+/admin                (Status: 401) [Size: 459]
+/.html                (Status: 403) [Size: 300]
+/.php                 (Status: 403) [Size: 299]
+/.html.php            (Status: 403) [Size: 304]

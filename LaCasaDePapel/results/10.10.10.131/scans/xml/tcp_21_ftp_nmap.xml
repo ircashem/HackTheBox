@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jun  9 20:47:36 2021 as: nmap -vv -&#45;reason -Pn -sV -p 21 &quot;-&#45;script=banner,(ftp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/ircashem/HackTheBox/LaCasaDePapel/results/10.10.10.131/scans/tcp_21_ftp_nmap.txt -oX /home/ircashem/HackTheBox/LaCasaDePapel/results/10.10.10.131/scans/xml/tcp_21_ftp_nmap.xml 10.10.10.131 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -sV -p 21 &quot;-&#45;script=banner,(ftp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -oN /home/ircashem/HackTheBox/LaCasaDePapel/results/10.10.10.131/scans/tcp_21_ftp_nmap.txt -oX /home/ircashem/HackTheBox/LaCasaDePapel/results/10.10.10.131/scans/xml/tcp_21_ftp_nmap.xml 10.10.10.131" start="1623251856" startstr="Wed Jun  9 20:47:36 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="21"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1623251856"/>
+<taskend task="NSE" time="1623251856"/>
+<taskbegin task="NSE" time="1623251856"/>
+<taskend task="NSE" time="1623251856"/>
+<taskbegin task="NSE" time="1623251856"/>
+<taskend task="NSE" time="1623251856"/>
+<taskbegin task="Connect Scan" time="1623251856"/>
+<taskend task="Connect Scan" time="1623251856" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1623251856"/>
+<taskend task="Service scan" time="1623251857" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1623251857"/>
+<taskend task="NSE" time="1623251859"/>
+<taskbegin task="NSE" time="1623251859"/>
+<taskend task="NSE" time="1623251859"/>
+<taskbegin task="NSE" time="1623251859"/>
+<taskend task="NSE" time="1623251859"/>
+<host starttime="1623251856" endtime="1623251859"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.131" addrtype="ipv4"/>
+<hostnames>
+<hostname name="lacasadepapel.htb" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="vsftpd" version="2.3.4" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:vsftpd:vsftpd:2.3.4</cpe></service><script id="banner" output="220 (vsFTPd 2.3.4)"/><script id="sslv2-drown" output="&#xa;"></script></port>
+</ports>
+<times srtt="102259" rttvar="102259" to="511295"/>
+</host>
+<taskbegin task="NSE" time="1623251859"/>
+<taskend task="NSE" time="1623251859"/>
+<taskbegin task="NSE" time="1623251859"/>
+<taskend task="NSE" time="1623251859"/>
+<taskbegin task="NSE" time="1623251859"/>
+<taskend task="NSE" time="1623251859"/>
+<runstats><finished time="1623251859" timestr="Wed Jun  9 20:47:39 2021" summary="Nmap done at Wed Jun  9 20:47:39 2021; 1 IP address (1 host up) scanned in 3.46 seconds" elapsed="3.46" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

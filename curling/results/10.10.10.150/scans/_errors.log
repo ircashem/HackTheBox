@@ -1,0 +1,1 @@
+[*] Service detection nmap-top-20-udp returned non-zero exit code: 1. Command: nmap -vv --reason -Pn -sU -A --top-ports=20 --version-all -oN "/home/ircashem/HackTheBox/curling/results/10.10.10.150/scans/_top_20_udp_nmap.txt" -oX "/home/ircashem/HackTheBox/curling/results/10.10.10.150/scans/xml/_top_20_udp_nmap.xml" 10.10.10.150

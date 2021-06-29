@@ -1,0 +1,5 @@
+/images               (Status: 301) [Size: 185] [--> http://delivery.htb/images/]
+/index.html           (Status: 200) [Size: 10850]
+/error                (Status: 301) [Size: 185] [--> http://delivery.htb/error/]
+/assets               (Status: 301) [Size: 185] [--> http://delivery.htb/assets/]
+/.                    (Status: 301) [Size: 185] [--> http://delivery.htb/./]

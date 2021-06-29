@@ -1,0 +1,18 @@
+# Nmap 7.91 scan initiated Tue Jun  1 14:15:24 2021 as: nmap -sC -sV -Pn -oN nmap/basic-tcp.nmap 10.10.10.178
+Nmap scan report for HTB-NEST (10.10.10.178)
+Host is up (0.10s latency).
+Not shown: 999 filtered ports
+PORT    STATE SERVICE       VERSION
+445/tcp open  microsoft-ds?
+
+Host script results:
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-06-01T08:45:47
+|_  start_date: 2021-06-01T08:45:03
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun  1 14:16:26 2021 -- 1 IP address (1 host up) scanned in 62.13 seconds

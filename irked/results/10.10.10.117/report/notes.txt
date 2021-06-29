@@ -1,0 +1,28 @@
+[*] ssh found on tcp/22.
+
+
+
+[*] http found on tcp/80.
+
+
+
+[*] rpcbind found on tcp/111.
+
+
+
+[*] irc found on tcp/6697.
+
+
+
+[*] irc found on tcp/8067.
+
+
+
+[*] status found on tcp/57894.
+
+
+
+[*] irc found on tcp/65534.
+
+
+

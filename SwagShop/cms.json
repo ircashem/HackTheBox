@@ -1,0 +1,8 @@
+{
+    "cms_id": "mg",
+    "cms_name": "Magento",
+    "cms_url": "https://magento.com",
+    "detection_param": "source",
+    "last_scanned": "2021-06-10 01:33:12.706909",
+    "url": "http://10.10.10.140/"
+}

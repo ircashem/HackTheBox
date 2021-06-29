@@ -1,0 +1,27 @@
+WhatWeb report for http://10.10.10.131:80
+Status    : 200 OK
+Title     : La Casa De Papel
+IP        : 10.10.10.131
+Country   : RESERVED, ZZ
+
+Summary   : HTML5, X-Powered-By[Express]
+
+Detected Plugins:
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ X-Powered-By ]
+	X-Powered-By HTTP header 
+
+	String       : Express (from x-powered-by string)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	X-Powered-By: Express
+	Content-Type: text/html; charset=utf-8
+	Content-Length: 1754
+	ETag: W/"6da-GPDoVFQaR0sQHdapEhcdY98gwIw"
+	Date: Wed, 09 Jun 2021 15:17:38 GMT
+	Connection: close
+	

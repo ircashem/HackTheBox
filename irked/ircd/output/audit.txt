@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Jun  8 19:52:58 2021
+Invocation: foremost irked.jpg 
+Output directory: /home/ircashem/HackTheBox/irked/ircd/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: irked.jpg
+Start: Tue Jun  8 19:52:58 2021
+Length: 33 KB (34697 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      33 KB 	          0 	 
+Finish: Tue Jun  8 19:52:58 2021
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Jun  8 19:52:58 2021

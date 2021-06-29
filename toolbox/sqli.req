@@ -1,0 +1,18 @@
+POST / HTTP/1.1
+Host: admin.megalogistic.com
+Cookie: PHPSESSID=26afb0d4845bc9105f0f26f2bb65f666
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 37
+Origin: https://admin.megalogistic.com
+Dnt: 1
+Referer: https://admin.megalogistic.com/
+Upgrade-Insecure-Requests: 1
+Sec-Gpc: 1
+Te: trailers
+Connection: close
+
+username=Administrator&password=admin

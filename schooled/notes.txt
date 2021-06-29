@@ -1,0 +1,7 @@
+Possible usernames:
+                    manuel phillips
+                    jane higgins
+                    jamie borham
+                    lianne carter
+
+10.10.10.234 - - [13/May/2021 12:28:56] "GET /if-it-works?MoodleSession=nfbua205o0jm74p3j4n1itg0aa HTTP/1.1" 404 -

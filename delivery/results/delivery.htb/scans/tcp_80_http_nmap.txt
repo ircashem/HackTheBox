@@ -1,0 +1,320 @@
+# Nmap 7.91 scan initiated Mon Jun  7 03:37:12 2021 as: nmap -vv --reason -Pn -sV -p 80 "--script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN /home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/tcp_80_http_nmap.txt -oX /home/ircashem/HackTheBox/delivery/results/delivery.htb/scans/xml/tcp_80_http_nmap.xml delivery.htb
+Nmap scan report for delivery.htb (10.10.10.222)
+Host is up, received user-set (0.099s latency).
+rDNS record for 10.10.10.222: helpdesk.delivery.htb
+Scanned at 2021-06-07 03:37:13 IST for 206s
+
+PORT   STATE SERVICE REASON  VERSION
+80/tcp open  http    syn-ack nginx 1.14.2
+|_http-chrono: Request times for /; avg: 315.19ms; min: 264.96ms; max: 379.26ms
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=delivery.htb
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 1171
+|     Comment: 
+|         /* Header */
+|     
+|     Path: http://delivery.htb:80/assets/css/noscript.css
+|     Line number: 1
+|     Comment: 
+|         /*
+|         	Dimension by HTML5 UP
+|         	html5up.net | @ajlkn
+|         	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+|         */
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 41
+|     Comment: 
+|         <!-- Main -->
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 872
+|     Comment: 
+|         /* Table */
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 2
+|     Comment: 
+|         
+|         
+|         
+|         
+|         -->
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 304
+|     Comment: 
+|         <!-- Scripts -->
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 51
+|     Comment: 
+|         /* Box Model */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 283
+|     Comment: 
+|         /* Form */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 555
+|     Comment: 
+|         /* Box */
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 36
+|     Comment: 
+|         <!--<li><a href="#elements">Elements</a></li>-->
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 21
+|     Comment: 
+|         <!-- Header -->
+|     
+|     Path: http://delivery.htb:80/assets/js/util.js
+|     Line number: 521
+|     Comment: 
+|         
+|         
+|         
+|         
+|         	 */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 1559
+|     Comment: 
+|         /* Footer */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 1043
+|     Comment: 
+|         /* BG */
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 13
+|     Comment: 
+|         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+|     
+|     Path: http://delivery.htb:80/assets/js/jquery.min.js
+|     Line number: 1
+|     Comment: 
+|         /*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 597
+|     Comment: 
+|         /* Image */
+|     
+|     Path: http://delivery.htb:80/assets/js/util.js
+|     Line number: 37
+|     Comment: 
+|         
+|         
+|         
+|         
+|         	 */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 92
+|     Comment: 
+|         /* Type */
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 294
+|     Comment: 
+|         <!-- Footer -->
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 940
+|     Comment: 
+|         /* Button */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 1116
+|     Comment: 
+|         /* Wrapper */
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 29
+|     Comment: 
+|         <!--]-->
+|     
+|     Path: http://delivery.htb:80/assets/js/main.js
+|     Line number: 1
+|     Comment: 
+|         
+|         
+|         
+|         
+|         */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 59
+|     Comment: 
+|         /* Basic */
+|     
+|     Path: http://delivery.htb:80/assets/js/skel.min.js
+|     Line number: 1
+|     Comment: 
+|         /* skel.js v3.0.1 | (c) skel.io | MIT licensed */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 10
+|     Comment: 
+|         /* Reset */
+|     
+|     Path: http://delivery.htb:80/assets/js/util.js
+|     Line number: 299
+|     Comment: 
+|         
+|         
+|         
+|         	 */
+|     
+|     Path: http://delivery.htb:80/assets/js/util.js
+|     Line number: 3
+|     Comment: 
+|         
+|         
+|         
+|         	 */
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 301
+|     Comment: 
+|         <!-- BG -->
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 50
+|     Comment: 
+|         <!-- Elements -->
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 29
+|     Comment: 
+|         <!--[-->
+|     
+|     Path: http://delivery.htb:80/
+|     Line number: 18
+|     Comment: 
+|         <!-- Wrapper -->
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 685
+|     Comment: 
+|         /* List */
+|     
+|     Path: http://delivery.htb:80/assets/css/main.css
+|     Line number: 576
+|     Comment: 
+|         /* Icon */
+|     
+|     Path: http://delivery.htb:80/assets/css/noscript.css
+|     Line number: 7
+|     Comment: 
+|_        /* Main */
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=delivery.htb
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://delivery.htb:80/
+|     Form id: demo-name
+|_    Form action: #
+|_http-date: Sun, 06 Jun 2021 22:07:25 GMT; 0s from local time.
+|_http-devframework: Couldn't determine the underlying framework or CMS. Try increasing 'httpspider.maxpagecount' value to spider more pages.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-drupal-enum: Nothing found amongst the top 100 resources,use --script-args number=<number|all> for deeper analysis)
+| http-enum: 
+|_  /error/: Potentially interesting folder
+| http-errors: 
+| Spidering limited to: maxpagecount=40; withinhost=delivery.htb
+|   Found the following error pages: 
+|   
+|   Error Code: 400
+|_  	http://delivery.htb:8065
+|_http-feed: Couldn't find any feeds.
+|_http-fetch: Please enter the complete path of the directory to save data in.
+| http-grep: 
+|   (1) http://delivery.htb:80/: 
+|     (1) email: 
+|_      + jane@untitled.tld
+| http-headers: 
+|   Server: nginx/1.14.2
+|   Date: Sun, 06 Jun 2021 22:07:24 GMT
+|   Content-Type: text/html
+|   Content-Length: 10850
+|   Last-Modified: Mon, 28 Dec 2020 11:52:59 GMT
+|   Connection: close
+|   ETag: "5fe9c71b-2a62"
+|   Accept-Ranges: bytes
+|   
+|_  (Request type: HEAD)
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-malware-host: Host appears to be clean
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-mobileversion-checker: No mobile version detected.
+| http-php-version: Logo query returned unknown hash 0afb29feafd1d79dd0d981cde5b3f5c9
+|_Credits query returned unknown hash 0afb29feafd1d79dd0d981cde5b3f5c9
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+|_http-security-headers: 
+|_http-server-header: nginx/1.14.2
+| http-sitemap-generator: 
+|   Directory structure:
+|     /
+|       Other: 1
+|     /assets/css/
+|       css: 3
+|     /assets/js/
+|       js: 4
+|   Longest directory structure:
+|     Depth: 2
+|     Dir: /assets/js/
+|   Total files found (by extension):
+|_    Other: 1; css: 3; js: 4
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-title: Welcome
+| http-useragent-tester: 
+|   Status for browser useragent: 200
+|   Allowed User Agents: 
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|_    WWW-Mechanize/1.34
+| http-vhosts: 
+|_128 names had status 200
+| http-vuln-cve2011-3192: 
+|   VULNERABLE:
+|   Apache byterange filter DoS
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2011-3192  BID:49303
+|       The Apache web server is vulnerable to a denial of service attack when numerous
+|       overlapping byte ranges are requested.
+|     Disclosure date: 2011-08-19
+|     References:
+|       https://www.securityfocus.com/bid/49303
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192
+|       https://www.tenable.com/plugins/nessus/55976
+|_      https://seclists.org/fulldisclosure/2011/Aug/175
+|_http-wordpress-enum: Nothing found amongst the top 100 resources,use --script-args search-limit=<number|all> for deeper analysis)
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun  7 03:40:39 2021 -- 1 IP address (1 host up) scanned in 207.25 seconds

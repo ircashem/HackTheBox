@@ -1,0 +1,4 @@
+/index.html           (Status: 200) [Size: 10909]
+/assets               (Status: 301) [Size: 313] [--> http://10.129.84.56/assets/]
+/.                    (Status: 200) [Size: 10909]
+/nic                  (Status: 301) [Size: 310] [--> http://10.129.84.56/nic/]

@@ -1,0 +1,492 @@
+
+acc_antiback
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,device_id,one_mode,two_mode,three_mode,four_mode,five_mode,six_mode,seven_mode,eight_mode,nine_mode,AntibackType
+
+acc_door
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,device_id,door_no,door_name,lock_delay,back_lock,sensor_delay,opendoor_type,inout_state,lock_active_id,long_open_id,wiegand_fmt_id,card_intervaltime,reader_type,is_att,door_sensor_status,map_id,duration_apb,force_pwd,supper_pwd,reader_io_state,open_door_delay,door_normal_open,enable_normal_open,disenable_normal_open,wiegandInType,wiegandOutType,wiegand_fmt_out_id,SRBOn,ManualCtlMode,ErrTimes,SensorAlarmTime,InTimeAPB
+
+acc_firstopen
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,door_id,timeseg_id
+
+acc_firstopen_emp
+id,accfirstopen_id,employee_id
+
+acc_holidays
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,holiday_name,holiday_type,start_date,end_date,loop_by_year,memo,HolidayNo,HolidayTZ
+
+acc_interlock
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,device_id,one_mode,two_mode,three_mode,four_mode,InterlockType
+
+acc_levelset
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,level_name,level_timeseg_id
+
+acc_levelset_door_group
+id,acclevelset_id,accdoor_id,accdoor_no_exp,accdoor_device_id,level_timeseg_id
+
+acc_linkageio
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,linkage_name,device_id,trigger_opt,in_address_hide,in_address,out_type_hide,out_address_hide,out_address,action_type,delay_time,video_linkageio_id,lchannel_num
+
+acc_map
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,map_name,map_path,area_id,width,height
+
+acc_mapdoorpos
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,map_door_id,map_id,width,left,top
+
+acc_morecardempgroup
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,group_name,memo,StdGroupNo,StdGroupTz,StdGroupVT,StdValidOnHoliday
+
+acc_morecardgroup
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,comb_id,group_id,opener_number
+
+acc_timeseg
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,timeseg_name,memo,sunday_start1,sunday_end1,sunday_start2,sunday_end2,sunday_start3,sunday_end3,monday_start1,monday_end1,monday_start2,monday_end2,monday_start3,monday_end3,tuesday_start1,tuesday_end1,tuesday_start2,tuesday_end2,tuesday_start3,tuesday_end3,wednesday_start1,wednesday_end1,wednesday_start2,wednesday_end2,wednesday_start3,wednesday_end3,thursday_start1,thursday_end1,thursday_start2,thursday_end2,thursday_start3,thursday_end3,friday_start1,friday_end1,friday_start2,friday_end2,friday_start3,friday_end3,saturday_start1,saturday_end1,saturday_start2,saturday_end2,saturday_start3,saturday_end3,holidaytype1_start1,holidaytype1_end1,holidaytype1_start2,holidaytype1_end2,holidaytype1_start3,holidaytype1_end3,holidaytype2_start1,holidaytype2_end1,holidaytype2_start2,holidaytype2_end2,holidaytype2_start3,holidaytype2_end3,holidaytype3_start1,holidaytype3_end1,holidaytype3_start2,holidaytype3_end2,holidaytype3_start3,holidaytype3_end3,TimeZone1Id,TimeZone2Id,TimeZone3Id,TimeZoneHolidayId
+1,,,,,,,0,"24-Hour Accessible","24-Hour Accessible","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 23:59:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00","01/01/11 00:00:00",1,0,0,0
+
+acc_wiegandfmt
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,wiegand_name,wiegand_count,odd_start,odd_count,even_start,even_count,cid_start,cid_count,comp_start,comp_count
+12,,,,,,,1,"AutoMatchWiegandFmt",0,0,0,0,0,0,0,0,0
+13,,,,,,,2,"SRBOn",0,0,0,0,0,0,0,0,0
+14,,,,,,,2,"Wiegand26",0,0,0,0,0,0,0,0,0
+15,,,,,,,2,"Wiegand26a",0,0,0,0,0,0,0,0,0
+16,,,,,,,2,"Wiegand34",0,0,0,0,0,0,0,0,0
+17,,,,,,,2,"Wiegand34a",0,0,0,0,0,0,0,0,0
+18,,,,,,,2,"Wiegand36",0,0,0,0,0,0,0,0,0
+19,,,,,,,2,"Wiegand37",0,0,0,0,0,0,0,0,0
+20,,,,,,,2,"Wiegand37a",0,0,0,0,0,0,0,0,0
+21,,,,,,,2,"Wiegand50",0,0,0,0,0,0,0,0,0
+22,,,,,,,2,"Wiegand66",0,0,0,0,0,0,0,0,0
+
+ACGroup
+GroupID,Name,TimeZone1,TimeZone2,TimeZone3,holidayvaild,verifystyle
+1,,0,0,0,0,
+2,,0,0,0,0,
+3,,0,0,0,0,
+4,,0,0,0,0,
+5,,0,0,0,0,
+
+acholiday
+primaryid,holidayid,begindate,enddate,timezone
+
+ACTimeZones
+TimeZoneID,Name,SunStart,SunEnd,MonStart,MonEnd,TuesStart,TuesEnd,WedStart,WedEnd,ThursStart,ThursEnd,FriStart,FriEnd,SatStart,SatEnd
+
+action_log
+id,action_time,user_id,content_type_id,object_id,object_repr,action_flag,change_message
+1044,"08/22/18 21:30:38",0,3,0,"AccTimeseg",3,"Time Zone Edit24-Hour Accessible"
+1045,"08/22/18 21:31:13",0,3,0,"AuthUser",1,"Add Personneladmin"
+1046,"08/22/18 21:31:14",0,3,0,"AuthUser",3,"Modify Personneladmin"
+1047,"08/22/18 21:31:14",0,3,0,"AuthUser",3,"Modify Personneladmin"
+1048,"08/22/18 21:35:27",25,3,0,"UserInfo",1,"Add Personnel538"
+1049,"08/22/18 21:36:23",25,3,0,"Departments",1,"Add DepartmentIT"
+1050,"08/22/18 21:36:30",25,3,0,"Departments",1,"Add DepartmentFinance"
+1051,"08/22/18 21:36:37",25,3,0,"Departments",1,"Add DepartmentSales"
+1052,"08/22/18 21:36:51",25,3,0,"UserInfo",3,"Personnel Changes538"
+1053,"08/22/18 21:36:52",25,3,0,"AccLevelsetEmp",2,"Delete personnel permissions information"
+1054,"08/22/18 21:39:49",25,3,0,"UserInfo",3,"Personnel Changes538"
+1055,"08/22/18 21:39:49",25,3,0,"AccLevelsetEmp",2,"Delete personnel permissions information"
+1056,"08/22/18 21:42:58",25,3,0,"AuthUser",1,"Add Personnelengineer1"
+1057,"08/22/18 21:44:44",25,3,0,"UserInfo",1,"Add Personnel511"
+1058,"08/22/18 21:47:01",25,3,0,"UserInfo",1,"Add Personnel502"
+1059,"08/22/18 21:48:45",25,3,0,"UserInfo",1,"Add Personnel505"
+1060,"08/23/18 21:11:47",0,3,0,"AuthUser",3,"Modify Personneladmin"
+1061,"08/23/18 21:12:22",25,3,0,"AuthUser",2,"Delete Personnel26"
+1062,"08/23/18 21:13:36",25,3,0,"AuthUser",1,"Add Personnelengineer"
+1063,"08/23/18 21:14:02",25,3,0,"AuthUser",1,"Add Personnelbackup_admin"
+1064,"08/23/18 21:15:34",25,3,0,"UserInfo",1,"Add Personnel510"
+1065,"08/23/18 21:15:58",25,3,0,"Departments",1,"Add DepartmentExecutive"
+1066,"08/23/18 21:16:19",25,3,0,"UserInfo",3,"Personnel Changes510"
+1067,"08/23/18 21:16:19",25,3,0,"AccLevelsetEmp",2,"Delete personnel permissions information"
+
+AlarmLog
+ID,Operator,EnrollNumber,LogTime,MachineAlias,AlarmType
+
+areaadmin
+id,user_id,area_id
+22,22,44
+23,23,43
+24,23,47
+
+att_attreport
+ItemName,ItemType,Author_id,ItemValue,Published
+
+att_waitforprocessdata
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,UserID_id,starttime,endtime,flag
+
+attcalclog
+id,DeptID,UserId,StartDate,EndDate,OperTime,Type
+
+attexception
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,UserId,StartTime,EndTime,ExceptionID,AuditExcID,OldAuditExcID,OverlapTime,TimeLong,InScopeTime,AttDate,OverlapWorkDayTai,OverlapWorkDay,schindex,Minsworkday,Minsworkday1,schid
+
+AuditedExc
+AEID,UserId,CheckTime,NewExcID,IsLeave,UName,UTime
+
+auth_group_permissions
+id,group_id,permission_id
+
+auth_message
+id,user_id,message
+
+auth_permission
+id,name,content_type_id,codename
+
+auth_user
+id,username,password,Status,last_login,RoleID,Remark
+25,"admin","admin",1,"08/23/18 21:11:47",26,
+27,"engineer","access4u@security",1,"08/23/18 21:13:36",26,
+28,"backup_admin","admin",1,"08/23/18 21:14:02",26,
+
+auth_user_groups
+id,user_id,group_id
+
+auth_user_user_permissions
+id,user_id,permission_id
+
+base_additiondata
+id,create_time,user_id,content_type_id,object_id,key,value,data,delete_time
+
+base_appoption
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,optname,value,discribe
+
+base_basecode
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,content,content_class,display,value,remark,is_add
+
+base_datatranslation
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,content_type_id,property,language,value,display
+
+base_operatortemplate
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,user_id,template1,finger_id,valid,fpversion,bio_type,utime,bitmap_picture,bitmap_picture2,bitmap_picture3,bitmap_picture4,use_type,template2,template3,template_flag
+
+base_personaloption
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,option_id,value,user_id
+
+base_strresource
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,app,str
+
+base_strtranslation
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,str_id,language,display
+
+base_systemoption
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,option_id,value
+
+CHECKEXACT
+EXACTID,USERID,CHECKTIME,CHECKTYPE,ISADD,YUYIN,ISMODIFY,ISDELETE,INCOUNT,ISCOUNT,MODIFYBY,DATE
+
+CHECKINOUT
+USERID,CHECKTIME,CHECKTYPE,VERIFYCODE,SENSORID,Memoinfo,WorkCode,sn,UserExtFmt,LOGID,MachineId
+
+dbbackuplog
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,user_id,starttime,imflag,successflag
+
+DEPARTMENTS
+DEPTID,DEPTNAME,SUPDEPTID,InheritParentSch,InheritDeptSch,InheritDeptSchClass,AutoSchPlan,InLate,OutEarly,InheritDeptRule,MinAutoSchInterval,RegisterOT,DefaultSchId,ATT,Holiday,OverTime,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,code,type,invalidate
+1,"Company Name",0,,,,,,,,,,,,,,,,,,,,,"1",,
+47,"IT",1,0,0,0,0,0,0,0,24,0,1,0,0,0,,,"25",,,,0,"03",,
+48,"Finance",1,0,0,0,0,0,0,0,24,0,1,0,0,0,,,"25",,,,0,"02",,
+49,"Sales",1,0,0,0,0,0,0,0,24,0,1,0,0,0,,,"25",,,,0,"01",,
+50,"Executive",1,0,0,0,0,0,0,0,24,0,1,0,0,0,,,"25",,,,0,"04",,
+
+deptadmin
+id,user_id,dept_id
+34,23,21
+35,23,3
+36,23,5
+43,22,24
+44,22,21
+45,22,5
+46,22,22
+
+DeptUsedSchs
+DeptId,SchId
+
+devcmds
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,SN_id,CmdOperate_id,CmdCommitTime,CmdTransTime,CmdOverTime,CmdReturn,CmdReturnContent,CmdImmediately,CmdContent
+
+devcmds_bak
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,SN_id,CmdOperate_id,CmdContent,CmdCommitTime,CmdTransTime,CmdOverTime,CmdReturn,CmdReturnContent,CmdImmediately
+
+django_content_type
+id,name,app_label,model
+
+django_session
+session_key,session_data,expire_date
+
+EmOpLog
+ID,USERID,OperateTime,manipulationID,Params1,Params2,Params3,Params4,SensorId
+
+empitemdefine
+ItemName,ItemType,Author_id,ItemValue,Published
+
+EXCNOTES
+USERID,ATTDATE,NOTES
+
+FaceTemp
+TEMPLATEID,USERNO,SIZE,pin,FACEID,VALID,RESERVE,ACTIVETIME,VFCOUNT,TEMPLATE,FaceType,StateMigrationFlag
+
+iclock_dstime
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,dst_name,mode,start_time,end_time
+
+iclock_oplog
+id,SN,admin,OP,OPTime,Object,Param1,Param2,Param3
+
+iclock_testdata
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,dept_id,area_id
+
+iclock_testdata_admin_area
+id,testdata_id,area_id
+
+iclock_testdata_admin_dept
+id,testdata_id,department_id
+
+LeaveClass
+LeaveId,LeaveName,MinUnit,Unit,RemaindProc,RemaindCount,ReportSymbol,Deduct,Color,Classify,Code
+1,"Sick",1,1,1,1,"B",0,3398744,,"Leave_1         "
+2,"Vacation",1,1,1,1,"S",0,8421631,,"Leave_2         "
+3,"Other",1,1,1,1,"T",0,16744576,,"Leave_3         "
+
+LeaveClass1
+LeaveId,LeaveName,MinUnit,Unit,RemaindProc,RemaindCount,ReportSymbol,Deduct,LeaveType,Color,Classify,Calc,Code
+1005,"OT",1,1,1,1,"+",0,3,0,0,"AttItem(MinOverTime)","Leave_1005      "
+1006,"OT2",1,1,0,1,"=",0,0,0,0,"if(HolidayId(1)=1, AttItem(MinOverTime),0)","Leave_1006      "
+1010,"ROT",1,4,2,1,"{",0,3,0,0,,"Leave_1010      "
+1011,"BOUT",1,4,2,1,"}",0,3,0,0,,"Leave_1011      "
+1013,"FOT",1,1,1,1,,0,3,0,0,"AttItem(MayOverTime)","Leave_1013      "
+999,"Bleave",0.5,3,1,1,"G",0,3,10523928,0,"if(AttItem(LeaveType1)=999,AttItem(LeaveTime1),0)+if(AttItem(LeaveType2)=999,AttItem(LeaveTime2),0)+if(AttItem(LeaveType3)=999,AttItem(LeaveTime3),0)+if(AttItem(LeaveType4)=999,AttItem(LeaveTime4),0)+if(AttItem(LeaveType5)=999,AttItem(LeaveTime5),0)","Leave_999       "
+1000,"Normal",0.5,3,1,0," ",0,3,0,0,,"Leave_1000      "
+1001,"Late",10,2,2,1,">",0,3,0,0,"AttItem(minLater)","Leave_1001      "
+1002,"Early",10,2,2,1,"<",0,3,0,0,"AttItem(minEarly)","Leave_1002      "
+1003,"AfL",1,1,1,1,"L",0,3,0,0,"if((AttItem(LeaveType1)>0) and (AttItem(LeaveType1)<999),AttItem(LeaveTime1),0)+if((AttItem(LeaveType2)>0) and (AttItem(LeaveType2)<999),AttItem(LeaveTime2),0)+if((AttItem(LeaveType3)>0) and (AttItem(LeaveType3)<999),AttItem(LeaveTime3),0)+if((AttItem(LeaveType4)>0) and (AttItem(LeaveType4)<999),AttItem(LeaveTime4),0)+if((AttItem(LeaveType5)>0) and (AttItem(LeaveType5)<999),AttItem(LeaveTime5),0)","Leave_1003      "
+1004,"Absent",0.5,3,1,0,"A",0,3,0,0,"AttItem(MinAbsent)","Leave_1004      "
+1007,"Rest",0.5,3,2,1,"-",0,2,0,0,,"Leave_1007      "
+1008,"N/In",1,4,2,1,"[",0,2,0,0,"If(AttItem(CheckIn)=null,If(AttItem(OnDuty)=null,0,if(((AttItem(LeaveStart1)=null) or (AttItem(LeaveStart1)>AttItem(OnDuty))) and AttItem(DutyOn),1,0)),0)","Leave_1008      "
+1009,"N/Out",1,4,2,1,"]",0,2,0,0,"If(AttItem(CheckOut)=null,If(AttItem(OffDuty)=null,0,if((AttItem(LeaveEnd1)=null) or (AttItem(LeaveEnd1)<AttItem(OffDuty)),if((AttItem(LeaveEnd2)=null) or (AttItem(LeaveEnd2)<AttItem(OffDuty)),if(((AttItem(LeaveEnd3)=null) or (AttItem(LeaveEnd3)<AttItem(OffDuty))) and AttItem(DutyOff),1,0),0),0)),0)","Leave_1009      "
+1012,"OUT",1,1,2,1,"L",0,3,0,0,,"Leave_1012      "
+
+Machines
+ID,ConnectType,IP,SerialPort,Port,Baudrate,MachineNumber,IsHost,Enabled,CommPassword,UILanguage,DateFormat,InOutRecordWarn,Idle,Voice,managercount,fingercount,SecretCount,ProductType,LockControl,Purpose,ProduceKind,sn,PhotoStamp,IsIfChangeConfigServer2,pushver,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,device_type,last_activity,trans_times,TransInterval,log_stamp,oplog_stamp,photo_stamp,UpdateDB,device_name,transaction_count,main_time,max_user_count,max_finger_count,max_attlog_count,alg_ver,flash_size,free_flash_size,language,lng_encode,volume,is_tft,platform,brightness,oem_vendor,city,AccFun,TZAdj,comm_type,agent_ipaddress,subnet_mask,gateway,area_id,acpanel_type,sync_time,four_to_two,video_login,fp_mthreshold,Fpversion,max_comm_size,max_comm_count,realtime,delay,encrypt,dstime_id,door_count,reader_count,aux_in_count,aux_out_count,IsOnlyRFMachine,alias,ipaddress,com_port,com_address,DeviceNetmask,DeviceGetway,SimpleEventType,FvFunOn,fvcount,deviceOption,DevSDKType,UTableDesc,IsTFTMachine,PinWidth,UserExtFmt,FP1_NThreshold,FP1_1Threshold,Face1_NThreshold,Face1_1Threshold,Only1_1Mode,OnlyCheckCard,MifireMustRegistered,RFCardOn,Mifire,MifireId,NetOn,RS232On,RS485On,FreeType,FreeTime,NoDisplayFun,VoiceTipsOn,TOMenu,StdVolume,VRYVH,KeyPadBeep,BatchUpdate,CardFun,FaceFunOn,FaceCount,TimeAPBFunOn,FirmwareVersion,FingerFunOn,CompatOldFirmware,ParamValues,WirelessSSID,WirelessKey,WirelessAddr,WirelessMask,WirelessGateWay,IsWireless,ACFun,BiometricType,BiometricVersion,BiometricMaxCount,BiometricUsedCount,WIFI,WIFIOn,WIFIDHCP,MachineAlias,usercount
+
+NUM_RUN
+NUM_RUNID,OLDID,NAME,STARTDATE,ENDDATE,CYLE,UNITS
+
+NUM_RUN_DEIL
+NUM_RUNID,STARTTIME,ENDTIME,SDAYS,EDAYS,SCHCLASSID,OverTime
+
+operatecmds
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,Author_id,CmdContent,CmdCommitTime,commit_time,CmdReturn,process_count,success_flag,receive_data,cmm_type,cmm_system
+
+personnel_area
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,areaid,areaname,parent_id,remark
+49,,,,,,,0,"1","Area Name",0,
+
+personnel_cardtype
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,cardtypecode,cardtypename
+
+personnel_empchange
+change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,changeno,UserID_id,changedate,changepostion,oldvalue,newvalue,changereason,isvalid,approvalstatus,remark
+
+personnel_leavelog
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,UserID_id,leavedate,leavetype,reason,isReturnTools,isReturnClothes,isReturnCard,isClassAtt,isClassAccess
+
+ReportItem
+RIID,RIIndex,ShowIt,RIName,UnitName,Formula,CalcBySchClass,StatisticMethod,CalcLast,Notes
+
+SchClass
+schClassid,schName,StartTime,EndTime,LateMinutes,EarlyMinutes,CheckIn,CheckOut,Color,AutoBind,CheckInTime1,CheckInTime2,CheckOutTime1,CheckOutTime2,WorkDay,SensorID,WorkMins
+
+SECURITYDETAILS
+SECURITYDETAILID,USERID,DEPTID,SCHEDULE,USERINFO,ENROLLFINGERS,REPORTVIEW,REPORT,ReadOnly,FullControl
+
+ServerLog
+ID,EVENT,USERID,EnrollNumber,parameter,EVENTTIME,SENSORID,OPERATOR
+
+SHIFT
+SHIFTID,NAME,USHIFTID,STARTDATE,ENDDATE,RUNNUM,SCH1,SCH2,SCH3,SCH4,SCH5,SCH6,SCH7,SCH8,SCH9,SCH10,SCH11,SCH12,CYCLE,UNITS
+
+TBKEY
+PreName,ONEKEY
+"SREF",0
+"FENREF",0
+"LOGREF",0
+
+TBSMSALLOT
+REFERENCE,SMSREF,USERREF,GENTM
+
+TBSMSINFO
+REFERENCE,SMSID,SMSINDEX,SMSTYPE,SMSCONTENT,SMSSTARTTM,SMSTMLENG,GENTM
+
+TEMPLATE
+TEMPLATEID,USERID,FINGERID,TEMPLATE,TEMPLATE2,BITMAPPICTURE,BITMAPPICTURE2,BITMAPPICTURE3,BITMAPPICTURE4,USETYPE,EMACHINENUM,TEMPLATE1,Flag,DivisionFP,TEMPLATE4,TEMPLATE3,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,Valid,Fpversion,bio_type,SN,UTime,FP10SIZE,DuressFlag,TEMPLATESIZE,StateMigrationFlag
+
+USER_OF_RUN
+USERID,NUM_OF_RUN_ID,STARTDATE,ENDDATE,ISNOTOF_RUN,ORDER_RUN
+
+USER_SPEDAY
+USERID,STARTSPECDAY,ENDSPECDAY,DATEID,YUANYING,DATE
+
+UserACMachines
+UserID,Deviceid
+
+UserACPrivilege
+UserID,DeviceID,ACGroupID,IsUseGroup,TimeZone1,TimeZone2,TimeZone3,verifystyle
+
+USERINFO
+USERID,Badgenumber,SSN,Gender,TITLE,PAGER,BIRTHDAY,HIREDDAY,street,CITY,STATE,ZIP,OPHONE,FPHONE,VERIFICATIONMETHOD,DEFAULTDEPTID,SECURITYFLAGS,ATT,INLATE,OUTEARLY,OVERTIME,SEP,HOLIDAY,MINZU,PASSWORD,LUNCHDURATION,PHOTO,mverifypass,Notes,privilege,InheritDeptSch,InheritDeptSchClass,AutoSchPlan,MinAutoSchInterval,RegisterOT,InheritDeptRule,EMPRIVILEGE,CardNo,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,lastname,AccGroup,TimeZones,identitycard,UTime,Education,OffDuty,DelTag,morecard_group_id,set_valid_time,acc_startdate,acc_enddate,birthplace,Political,contry,hiretype,email,firedate,isatt,homeaddress,emptype,bankcode1,bankcode2,isblacklist,Iuser1,Iuser2,Iuser3,Iuser4,Iuser5,Cuser1,Cuser2,Cuser3,Cuser4,Cuser5,Duser1,Duser2,Duser3,Duser4,Duser5,reserve,name,OfflineBeginDate,OfflineEndDate,carNo,carType,carBrand,carColor
+1,"538","0","M",,,"03/25/18 21:31:40","04/10/18 21:35:19",,,,,,,,47,,1,0,1,1,1,1,,"020481",1,,,,0,1,1,1,24,1,1,0,,,,,,,,0,"Carter",0,,,,,0,0,0,0,,,,,,0,,,1," ",0,,,0,0,0,0,0,0,,,,,,,,,,,0,"John",,,,,,
+2,"511","0","M",,,"05/16/18 21:44:28","08/10/18 21:44:38",,,,,,,,49,,1,0,1,1,1,1,,"010101",1,,,,0,1,1,1,24,1,1,0,,,,,,,,0,"Smith",0,,,,,0,0,0,0,,,,,,0,,,1," ",0,,,0,0,0,0,0,0,,,,,,,,,,,0,"Mark",,,,,,
+3,"502","0","F",,,"08/21/18 21:44:49","08/21/18 21:46:50",,,,,,,,49,,1,0,1,1,1,1,,"000000",1,,,,0,1,1,1,24,1,1,0,,,,,,,,0,"Rahman",0,,,,,0,0,0,0,,,,,,0,,,1," ",0,,,0,0,0,0,0,0,,,,,,,,,,,0,"Sunita",,,,,,
+4,"505","0","M",,,"08/18/18 21:47:09","08/21/18 21:48:40",,,,,,,,48,,1,0,1,1,1,1,,"666666",1,,,,0,1,1,1,24,1,1,0,,,,,,,,0,"Jones",0,,,,,0,0,0,0,,,,,,0,,,1," ",0,,,0,0,0,0,0,0,,,,,,,,,,,0,"Mary",,,,,,
+5,"510","0","F",,,"01/02/18 21:14:11","08/22/18 21:14:11",,,,,,,,50,,1,0,1,1,1,1,,"123321",1,,,,0,1,1,1,24,1,1,0,,,,,,,,0,"Nunes",0,,,,,0,0,0,0,,,,,,0,,,1," ",0,,,0,0,0,0,0,0,,,,,,,,,,,0,"Monica",,,,,,
+
+userinfo_attarea
+id,employee_id,area_id
+
+UsersMachines
+ID,USERID,DEVICEID
+
+UserUpdates
+UpdateId,BadgeNumber
+
+worktable_groupmsg
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,msgtype_id,group_id
+
+worktable_instantmsg
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,monitor last time,msgtype_id,content
+
+worktable_msgtype
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,msgtype_name,msgtype_value,msg_keep_time,msg_ahead_remind,type
+
+worktable_usrmsg
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,user_id,msg_id
+
+ZKAttendanceMonthStatistics
+Id,USERID,PortalSite,Department,Employee,Year,Month,YingDao,ShiDao,ChiDao,ZaoTui,KuangGong,JiaBan,WaiChu,YinGongWaiChu,GongZuoShiJian,YingQian,QianDao,QianTui,WeiQianDao,WeiQianTui,QingJia,PingRi,ZhouMo,JieJiaRi,ChuQinShiJian,PingRiJiaBan,ZhouMoJiaBan,JieJiaRiJiaBan
+
+acc_levelset_emp
+id,acclevelset_id,employee_id
+
+acc_morecardset
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,door_id,comb_name,CombNo
+
+ACUnlockComb
+UnlockCombID,Name,Group01,Group02,Group03,Group04,Group05
+1,,1,,,,
+2,,,,,,
+3,,,,,,
+4,,,,,,
+5,,,,,,
+6,,,,,,
+7,,,,,,
+8,,,,,,
+9,,,,,,
+10,,,,,,
+
+AttParam
+PARANAME,PARATYPE,PARAVALUE
+"ACDBVersion",,"381"
+"CheckInColor",,"16777151"
+"CheckOutColor",,"12910591"
+"DBVersion",,"372"
+"MinsEarly",,"5"
+"MinsLate",,"10"
+"MinsNoBreakIn",,"60"
+"MinsNoBreakOut",,"60"
+"MinsNoIn",,"60"
+"MinsNoLeave",,"60"
+"MinsNotOverTime",,"60"
+"MinsWorkDay",,"420"
+"NoBreakIn",,"1012"
+"NoBreakOut",,"1012"
+"NoIn",,"1001"
+"NoLeave",,"1002"
+"OutOverTime",,"0"
+"TwoDay",,"0"
+"DBVersionAccess",,"26"
+
+auth_group
+id,name,Permission,Remark
+26,"administrator","333333333333333333333333333333333333333333333333333333333","Administrator"
+
+AUTHDEVICE
+ID,USERID,MachineID
+
+base_option
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,name,app_label,catalog,group,widget,required,validator,verbose_name,help_text,visible,default,read_only,for_personal,type
+
+dbapp_viewmodel
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,model_id,name,info,viewtype
+
+FingerVein
+FVID,UserID,FingerID,Template,Size,DuressFlag,UserCode,Fv_ID_Index,StateMigrationFlag
+
+devlog
+id,SN_id,OP,Object,Cnt,ECnt,OpTime
+
+HOLIDAYS
+HOLIDAYID,HOLIDAYNAME,HOLIDAYYEAR,HOLIDAYMONTH,HOLIDAYDAY,STARTTIME,DURATION,HOLIDAYTYPE,XINBIE,MINZU,DeptID
+
+personnel_issuecard
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,UserID_id,cardno,effectivenessdate,isvalid,cardpwd,failuredate,cardstatus,issuedate
+
+SystemLog
+ID,Operator,LogTime,MachineAlias,LogTag,LogDescr
+1,"Temp-Supervisor","11/17/11 11:08:46",,0,"&Initialize System"
+
+USER_TEMP_SCH
+USERID,COMETIME,LEAVETIME,TYPE,FLAG,SCHCLASSID,OVERTIME
+
+UserUsedSClasses
+UserId,SchId
+
+acc_monitor_log
+id,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,log_tag,time,pin,card_no,device_id,device_sn,device_name,verified,state,event_type,description,event_point_type,event_point_id,event_point_name
+
+OfflinePermitGroups
+id,GroupName,BeginDate,EndDate
+
+OfflinePermitUsers
+id,GroupId,Pin,ChkPwd,ChkFp
+
+OfflinePermitDoors
+id,GroupId,DeviceId,DoorNo
+
+LossCard
+id,Pin,CardNo,LossDate
+
+TmpPermitGroups
+id,GroupName,BeginDate,EndDate
+
+TmpPermitUsers
+id,GroupId,CertifiNo,UserName,Gender,CardNo,OfflineBeginDate,OfflineEndDate
+
+TmpPermitDoors
+id,GroupId,DeviceId,DoorNo
+
+ParamSet
+ParamName,ParamValue
+
+acc_reader
+id,door_id,reader_no,reader_name,reader_state
+
+acc_auxiliary
+id,device_id,aux_no,printer_number,aux_name,aux_state
+
+STD_WiegandFmt
+id,DoorId,OutWiegandFmt,OutFailureId,OutAreaCode,OutPulseWidth,OutPulseInterval,OutContent,InWiegandFmt,InBitCount,InPulseWidth,InPulseInterval,InContent
+
+CustomReport
+id,ReportName,Memo
+
+ReportField
+CRId,TableName,FieldName,ShowIndex
+
+BioTemplate
+UserID,BadgeNumber,CreateOperator,CreateTime,ValidFlag,IsDuress,BioType,Version,DataFormat,TemplateNO,TemplateNOIndex,nOldType,TemplateData,ID
+
+FaceTempEx
+TEMPLATEID,USERNO,SIZE,pin,FACEID,VALID,RESERVE,ACTIVETIME,VFCOUNT,TEMPLATE,FaceType,StateMigrationFlag
+
+FingerVeinEx
+FVID,UserID,FingerID,Template,Size,DuressFlag,UserCode,Fv_ID_Index,StateMigrationFlag
+
+TEMPLATEEx
+TEMPLATEID,USERID,FINGERID,TEMPLATE,TEMPLATE2,BITMAPPICTURE,BITMAPPICTURE2,BITMAPPICTURE3,BITMAPPICTURE4,USETYPE,EMACHINENUM,TEMPLATE1,Flag,DivisionFP,TEMPLATE4,TEMPLATE3,change_operator,change_time,create_operator,create_time,delete_operator,delete_time,status,Valid,Fpversion,bio_type,SN,UTime,FP10SIZE,DuressFlag,TEMPLATESIZE,StateMigrationFlag

@@ -1,0 +1,17 @@
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	print$          Disk      Printer Drivers
+	Files           Disk      FriendZone Samba Server Files /etc/Files
+	general         Disk      FriendZone Samba Server Files
+	Development     Disk      FriendZone Samba Server Files
+	IPC$            IPC       IPC Service (FriendZone server (Samba, Ubuntu))
+Reconnecting with SMB1 for workgroup listing.
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------
+	MEGACORP             MULTIMASTER
+	WORKGROUP            FRIENDZONE

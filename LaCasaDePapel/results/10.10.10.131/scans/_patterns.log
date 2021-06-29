@@ -1,0 +1,12 @@
+nmap-quick - Matched Pattern: Unauthorized
+
+tcp/443/curl-index - Matched Pattern: Unauthorized
+
+tcp/443/whatweb - Matched Pattern: Unauthorized
+
+tcp/443/whatweb - Matched Pattern: Unauthorized
+
+tcp/443/nmap-http - Matched Pattern: Unauthorized
+
+tcp/443/nmap-http - Nmap script found a potential vulnerability. (State: VULNERABLE)
+

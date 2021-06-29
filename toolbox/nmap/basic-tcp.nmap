@@ -1,0 +1,44 @@
+# Nmap 7.91 scan initiated Sun May 30 14:48:16 2021 as: nmap -sC -sV -oN nmap/basic-tcp.nmap 10.10.10.236
+Nmap scan report for 10.10.10.236
+Host is up (0.11s latency).
+Scanned at 2021-05-30 14:48:16 IST for 85s
+Not shown: 994 closed ports
+PORT    STATE SERVICE       VERSION
+21/tcp  open  ftp           FileZilla ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-r-xr-xr-x 1 ftp ftp      242520560 Feb 18  2020 docker-toolbox.exe
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+22/tcp  open  ssh           OpenSSH for_Windows_7.7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 5b:1a:a1:81:99:ea:f7:96:02:19:2e:6e:97:04:5a:3f (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGMBbGgDiOZZt3bkOSs3/y3cFfYWVGPbw89lYh0OGLZ0J2eQfLPchbOe5jj+FY8uwizKA4ZwPrLe523TXoxTXmoI80LBl3sOPDb9xCBMfpYI72DRMiipB88CYC4vez8lsyofabtC2tkl6aMLc2zom62cI0jjBpmjLfLDUy1O9f/vFw0H+Qr2nGxr81dIy7E5ca5+lxMW1RP++TZAKK243GqgJLoZFRINIjA9QIgBmD2ZYSyUM3nkd8Kc5EuaaWuhggstXDEXOnxJP7S8p12IJhjtF2Tikcy5pg+qFD128o+PBa19FFc6NtNdaWDAnt8HvuZUbDgKy+e33ytA2dworB
+|   256 a2:4b:5a:c7:0f:f3:99:a1:3a:ca:7d:54:28:76:b2:dd (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIR9i0NqfFj31XNbDraGeI6rcylMmHucBKlMt4kswXRNyjdyXbxkYxHYt/cflrLg+687H7cfQKamV0RbLnqle7E=
+|   256 ea:08:96:60:23:e2:f4:4f:8d:05:b3:18:41:35:23:39 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOuBCr4Rn8G4uD6IINB2myKifcJ8tJU03cOPDpS5vz14
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp open  https?
+445/tcp open  microsoft-ds?
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: -1s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 38645/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 61473/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 61367/udp): CLEAN (Timeout)
+|   Check 4 (port 34913/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-05-30T09:19:15
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 30 14:49:41 2021 -- 1 IP address (1 host up) scanned in 84.98 seconds

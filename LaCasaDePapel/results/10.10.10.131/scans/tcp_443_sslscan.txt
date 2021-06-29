@@ -1,0 +1,108 @@
+Version: 2.0.10-static
+OpenSSL 1.1.1l-dev  xx XXX xxxx
+
+Connected to 10.10.10.131
+
+Testing SSL server 10.10.10.131 on port 443 using SNI name 10.10.10.131
+
+  SSL/TLS Protocols:
+SSLv2     disabled
+SSLv3     disabled
+TLSv1.0   enabled
+TLSv1.1   enabled
+TLSv1.2   enabled
+TLSv1.3   disabled
+
+  TLS Fallback SCSV:
+Server supports TLS Fallback SCSV
+
+  TLS renegotiation:
+Secure session renegotiation supported
+
+  TLS Compression:
+Compression disabled
+
+  Heartbleed:
+TLSv1.2 not vulnerable to heartbleed
+TLSv1.1 not vulnerable to heartbleed
+TLSv1.0 not vulnerable to heartbleed
+
+  Supported Server Cipher(s):
+Preferred TLSv1.2  128 bits  ECDHE-RSA-AES128-GCM-SHA256   Curve P-256 DHE 256
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-AES256-GCM-SHA384   Curve P-256 DHE 256
+Accepted  TLSv1.2  128 bits  ECDHE-RSA-AES128-SHA256       Curve P-256 DHE 256
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-AES256-SHA384       Curve P-256 DHE 256
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-AES256-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.2  256 bits  AES256-GCM-SHA384            
+Preferred TLSv1.1  256 bits  ECDHE-RSA-AES256-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.1  256 bits  AES256-SHA                   
+Accepted  TLSv1.1  128 bits  ECDHE-RSA-AES128-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.1  128 bits  AES128-SHA                   
+Preferred TLSv1.0  256 bits  ECDHE-RSA-AES256-SHA          Curve P-256 DHE 256
+Accepted  TLSv1.0  256 bits  AES256-SHA                   
+
+  Server Key Exchange Group(s):
+TLSv1.2  128 bits  secp256r1 (NIST P-256)
+
+  SSL Certificate:
+    Certificate blob:
+-----BEGIN CERTIFICATE-----
+MIIC6jCCAdICCQDISiE8M6B29jANBgkqhkiG9w0BAQsFADA3MRowGAYDVQQDDBFs
+YWNhc2FkZXBhcGVsLmh0YjEZMBcGA1UECgwQTGEgQ2FzYSBEZSBQYXBlbDAeFw0x
+OTAxMjcwODM1MzBaFw0yOTAxMjQwODM1MzBaMDcxGjAYBgNVBAMMEWxhY2FzYWRl
+cGFwZWwuaHRiMRkwFwYDVQQKDBBMYSBDYXNhIERlIFBhcGVsMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz3M6VN7OD5sHW+zCbIv/5vJpuaxJF3A5q2rV
+QJNqU1sFsbnaPxRbFgAtc8hVeMNii2nCFO8PGGs9P9pvoy8e8DR9ksBQYyXqOZZ8
+/rsdxwfjYVgv+a3UbJNO4e9Sd3b8GL+4XIzzSi3EZbl7dlsOhl4+KB4cM4hNhE5B
+4K8UKe4wfKS/ekgyCRTRENVqqd3izZzz232yyzFvDGEOFJVzmhlHVypqsfS9rKUV
+ESPHczaEQld3kupVrt/mBqwuKe99sluQzORqO1xMqbNgb55ZD66vQBSkN2PwBeiR
+PBRNXfnWla3Gkabukpu9xR9o+l7ut13PXdQ/fPflLDwnu5wMZwIDAQABMA0GCSqG
+SIb3DQEBCwUAA4IBAQCuo8yzORz4pby9tF1CK/4cZKDYcGT/wpa1v6lmD5CPuS+C
+hXXBjK0gPRAPhpF95DO7ilyJbfIc2xIRh1cgX6L0ui/SyxaKHgmEE8ewQea/eKu6
+vmgh3JkChYqvVwk7HRWaSaFzOiWMKUU8mB/7L95+mNU7DVVUYB9vaPSqxqfX6ywx
+BoJEm7yf7QlJTH3FSzfew1pgMyPxx0cAb5ctjQTLbUj1rcE9PgcSki/j9WyJltkI
+EqSngyuJEu3qYGoM0O5gtX13jszgJP+dA3vZ1wqFjKlWs2l89pb/hwRR2raqDwli
+MgnURkjwvR1kalXCvx9cST6nCkxF2TxlmRpyNXy4
+-----END CERTIFICATE-----
+    Version: 0
+    Serial Number: c8:4a:21:3c:33:a0:76:f6
+    Signature Algorithm: sha256WithRSAEncryption
+    Issuer: /CN=lacasadepapel.htb/O=La Casa De Papel
+    Not valid before: Jan 27 08:35:30 2019 GMT
+    Not valid after: Jan 24 08:35:30 2029 GMT
+    Subject: /CN=lacasadepapel.htb/O=La Casa De Papel
+    Public Key Algorithm: NULL
+    RSA Public Key: (2048 bit)
+      RSA Public-Key: (2048 bit)
+      Modulus:
+          00:cf:73:3a:54:de:ce:0f:9b:07:5b:ec:c2:6c:8b:
+          ff:e6:f2:69:b9:ac:49:17:70:39:ab:6a:d5:40:93:
+          6a:53:5b:05:b1:b9:da:3f:14:5b:16:00:2d:73:c8:
+          55:78:c3:62:8b:69:c2:14:ef:0f:18:6b:3d:3f:da:
+          6f:a3:2f:1e:f0:34:7d:92:c0:50:63:25:ea:39:96:
+          7c:fe:bb:1d:c7:07:e3:61:58:2f:f9:ad:d4:6c:93:
+          4e:e1:ef:52:77:76:fc:18:bf:b8:5c:8c:f3:4a:2d:
+          c4:65:b9:7b:76:5b:0e:86:5e:3e:28:1e:1c:33:88:
+          4d:84:4e:41:e0:af:14:29:ee:30:7c:a4:bf:7a:48:
+          32:09:14:d1:10:d5:6a:a9:dd:e2:cd:9c:f3:db:7d:
+          b2:cb:31:6f:0c:61:0e:14:95:73:9a:19:47:57:2a:
+          6a:b1:f4:bd:ac:a5:15:11:23:c7:73:36:84:42:57:
+          77:92:ea:55:ae:df:e6:06:ac:2e:29:ef:7d:b2:5b:
+          90:cc:e4:6a:3b:5c:4c:a9:b3:60:6f:9e:59:0f:ae:
+          af:40:14:a4:37:63:f0:05:e8:91:3c:14:4d:5d:f9:
+          d6:95:ad:c6:91:a6:ee:92:9b:bd:c5:1f:68:fa:5e:
+          ee:b7:5d:cf:5d:d4:3f:7c:f7:e5:2c:3c:27:bb:9c:
+          0c:67
+      Exponent: 65537 (0x10001)
+  Verify Certificate:
+    self signed certificate
+
+  SSL Certificate:
+Signature Algorithm: sha256WithRSAEncryption
+RSA Key Strength:    2048
+
+Subject:  lacasadepapel.htb
+Issuer:   lacasadepapel.htb
+
+Not valid before: Jan 27 08:35:30 2019 GMT
+Not valid after:  Jan 24 08:35:30 2029 GMT
