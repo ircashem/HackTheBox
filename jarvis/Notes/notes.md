@@ -28,11 +28,12 @@
 | Service | Username | Password |
 | :-------: | :--------: | :--------: |
 |  mysql  | DBadmin | imissyou |
-|         |         |         |
 
 ---
 
 ## Synopsis
+
+Got sql injection on cod parameter on room.php page. Uploaded a reverse shell using outfile method and got `www-data`. From there, noticed www-data can run simpler.py file as user `pepper`.Bypassed all the forbidden characters to gain rce and got shell as pepper. systemctl has setuid set and pepper can execute that binary. With the help of gtfobins, got root. 👍
 
 ---
 
