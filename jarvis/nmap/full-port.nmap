@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Tue Jun 29 22:18:41 2021 as: nmap -p- -vv -oN nmap/full-port.nmap 10.10.10.143
+Nmap scan report for 10.10.10.143
+Host is up, received syn-ack (0.089s latency).
+Scanned at 2021-06-29 22:18:41 IST for 435s
+Not shown: 65532 closed ports
+Reason: 65532 conn-refused
+PORT      STATE SERVICE REASON
+22/tcp    open  ssh     syn-ack
+80/tcp    open  http    syn-ack
+64999/tcp open  unknown syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jun 29 22:25:56 2021 -- 1 IP address (1 host up) scanned in 435.69 seconds
