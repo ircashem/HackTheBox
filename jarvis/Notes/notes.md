@@ -11,7 +11,7 @@
     - [Opened Ports](#opened-ports)
   - [FootHold](#foothold)
   - [Lateral Movement](#lateral-movement)
-  - [Privilege Escalation`systemctl` has setuid set.](#privilege-escalationsystemctl-has-setuid-set)
+  - [Privilege Escalation](#privilege-escalation)
 
 <!-- /TOC -->
 
@@ -81,6 +81,7 @@
 - `systemctl` has setuid set.
 
 - With the help of [gtfobins](https://gtfobins.github.io/gtfobins/systemctl/#suid) , got access to root.
+  
   ```bash
   cd /tmp
   TF=`mktemp`.service
