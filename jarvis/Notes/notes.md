@@ -42,7 +42,7 @@
 
 - On the homepage, `supersecurehotel.htb` discovered.
 - The parameter `cod` on the room.php page was vulnerable to error based sql injection.
--  ![](assets/20210630_015616_image.png)
+- ![](assets/20210630_015616_image.png)
 - Got shell from sqlmap using --os-shell feature which is quite a 🌶 feature. I like it personally.
 - User `www-data` can run a simpler.py file with as pepper. Finding way to escalate the privilege from www-data to pepper.
 
@@ -76,7 +76,9 @@
 
 ---
 
-## Privilege Escalation`systemctl` has setuid set.
+## Privilege Escalation
+
+- `systemctl` has setuid set.
 
 - With the help of [gtfobins](https://gtfobins.github.io/gtfobins/systemctl/#suid) , got access to root.
   ```bash
