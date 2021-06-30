@@ -1,0 +1,39 @@
+Script started on 2021-06-30 23:33:55+05:30 [TERM="screen-256color" TTY="/dev/pts/6" COLUMNS="135" LINES="33"]
+                                                                                                                                       [0m[23m[24m[J[36m┌──([1m[36m[37mircashem[0m[37m[36m)㉿[33m[0m[33m[36m([33m10.10.14.20[0m[33m[36m)──[[0m[36m[32m~/HackTheBox/tenet[0m[32m[36m]
+└─[1m[36m[33m$[0m[33m[39m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32ms[39m[32ms[32ms[32mh[39m [35m-[39m[35m-[35mi[39m [4mi[24m[4mi[4md[24m[4md[4m_rsa[24m[1m [0m[0m [35m-[39m[39m o [4mr[24m[4mr[4mo[24m[4mo[4mo[24m[4mo[4mt[24m[24mr[24mo[24mo[24mt@tenet.htb[?1l>[?2004l
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-129-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Jun 30 18:04:02 UTC 2021
+
+  System load:  0.47               Processes:             186
+  Usage of /:   15.2% of 22.51GB   Users logged in:       1
+  Memory usage: 10%                IP address for ens160: 10.10.10.223
+  Swap usage:   0%
+
+
+53 packages can be updated.
+31 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+
+Last login: Wed Jun 30 17:30:46 2021 from 10.10.14.20
+root@tenet:~# ls
+root.txt
+root@tenet:~# cat root.txt 
+74bdca726b75735f85fe47336148c5d4
+root@tenet:~# cat /home/us[K[Kneil/user.txt 
+f3a2b77cda056aa67d45fed1d7c21dcb
+root@tenet:~# exit
+logout
+Connection to tenet.htb closed.
+                                                                                                                                       [0m[23m[24m[J[36m┌──([1m[36m[37mircashem[0m[37m[36m)㉿[33m[0m[33m[36m([33m10.10.14.20[0m[33m[36m)──[[0m[36m[32m~/HackTheBox/tenet[0m[32m[36m]
+└─[1m[36m[33m$[0m[33m[39m [K[?1h=[?2004h[H[J[0m[23m[24m[J[36m┌──([1m[36m[37mircashem[0m[37m[36m)㉿[33m[0m[33m[36m([33m10.10.14.20[0m[33m[36m)──[[0m[36m[32m~/HackTheBox/tenet[0m[32m[36m]
+└─[1m[36m[33m$[0m[33m[39m [K[1m[31me[0m[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mx[0m[39m[1m[31mx[1m[31mi[0m[39m[1m[31mi[1m[31mt[0m[39m[1m[31mi[0m[39m[0m[39m [1m[31mx[0m[39m[0m[39m [0m[32me[0m[32mx[39m[0m[39m [1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
+
+Script done on 2021-06-30 23:35:23+05:30 [COMMAND_EXIT_CODE="0"]

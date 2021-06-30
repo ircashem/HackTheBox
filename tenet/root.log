@@ -1,0 +1,3 @@
+/users.txt            (Status: 200) [Size: 7]
+/.                    (Status: 200) [Size: 10918]
+/wordpress            (Status: 301) [Size: 316] [--> http://10.10.10.223/wordpress/]
