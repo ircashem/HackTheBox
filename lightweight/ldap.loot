@@ -1,0 +1,40 @@
+DN: uid=ldapuser1,ou=People,dc=lightweight,dc=htb - STATUS: Read - READ TIME: 2021-07-01T17:31:35.152798
+    cn: ldapuser1
+    gidNumber: 1000
+    homeDirectory: /home/ldapuser1
+    loginShell: /bin/bash
+    mail: ldapuser1@lightweight.htb
+    objectClass: person
+                 organizationalPerson
+                 inetOrgPerson
+                 posixAccount
+                 top
+                 shadowAccount
+    shadowLastChange: 17691
+    shadowMax: 99999
+    shadowMin: 0
+    shadowWarning: 7
+    sn: ldapuser1
+    uid: ldapuser1
+    uidNumber: 1000
+    userPassword: b'{crypt}$6$3qx0SD9x$Q9y1lyQaFKpxqkGqKAjLOWd33Nwdhj.l4MzV7vTnfkE/g/Z/7N5ZbdEQWfup2lSdASImHtQFh6zMo41ZA./44/'
+DN: uid=ldapuser2,ou=People,dc=lightweight,dc=htb - STATUS: Read - READ TIME: 2021-07-01T17:31:35.153366
+    cn: ldapuser2
+    gidNumber: 1001
+    homeDirectory: /home/ldapuser2
+    loginShell: /bin/bash
+    mail: ldapuser2@lightweight.htb
+    objectClass: person
+                 organizationalPerson
+                 inetOrgPerson
+                 posixAccount
+                 top
+                 shadowAccount
+    shadowLastChange: 17691
+    shadowMax: 99999
+    shadowMin: 0
+    shadowWarning: 7
+    sn: ldapuser2
+    uid: ldapuser2
+    uidNumber: 1001
+    userPassword: b'{crypt}$6$xJxPjT0M$1m8kM00CJYCAgzT4qz8TQwyGFQvk3boaymuAmMZCOfm3OA7OKunLZZlqytUp2dun509OBE2xwX/QEfjdRQzgn1'

@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Thu Jul  1 18:44:51 2021 as: nmap -p- -vv -oN nmap/full-port.nmap 10.10.10.119
+Nmap scan report for lightweight.htb (10.10.10.119)
+Host is up, received syn-ack (0.11s latency).
+Scanned at 2021-07-01 18:44:51 IST for 247s
+Not shown: 65532 filtered ports
+Reason: 65293 no-responses and 239 host-unreaches
+PORT    STATE SERVICE REASON
+22/tcp  open  ssh     syn-ack
+80/tcp  open  http    syn-ack
+389/tcp open  ldap    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jul  1 18:48:58 2021 -- 1 IP address (1 host up) scanned in 247.41 seconds
