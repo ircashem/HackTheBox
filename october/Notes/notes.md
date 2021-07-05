@@ -66,4 +66,7 @@
 
 ## Privilege Escalation
 
+
+![](assets/20210704_095359_image.png)
+
 ---

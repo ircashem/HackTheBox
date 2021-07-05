@@ -1,0 +1,3 @@
+admin:whythereisalimit
+
+compile to main.wasm: `GOOS=js GOARCH=wasm go build -o main.wasm`
